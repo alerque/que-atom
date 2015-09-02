@@ -1,0 +1,5 @@
+*
+!/.atom
+!/.atom/config.cson
+!/.gitignore.d
+!/.gitignore.d/que-atom

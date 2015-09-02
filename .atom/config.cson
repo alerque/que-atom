@@ -1,0 +1,37 @@
+"*":
+  "exception-reporting":
+    userId: "314f8be9-4810-bd18-6545-532edb4bbeb4"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "bb3cbc9c5eada0721d1ce689a2fdef07c10fe95d"
+  core:
+    disabledPackages: [
+      "timecop"
+      "welcome"
+    ]
+    audioBeep: false
+    projectHome: "~/projects"
+    autoHideMenuBar: true
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  editor:
+    showInvisibles: true
+    invisibles: {}
+    fontFamily: "DejaVu Sans Mono"
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  latex:
+    enableShellEscape: true
+  "git-diff":
+    showIconsInEditorGutter: true
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  "one-dark-ui": {}
+  minimap:
+    absoluteMode: true
+    displayMinimapOnLeft: true
+    scrollAnimation: true
