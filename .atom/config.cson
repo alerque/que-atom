@@ -1,37 +1,60 @@
 "*":
-  "exception-reporting":
-    userId: "314f8be9-4810-bd18-6545-532edb4bbeb4"
-  welcome:
-    showOnStartup: false
-  metrics:
-    userId: "bb3cbc9c5eada0721d1ce689a2fdef07c10fe95d"
+  Zen:
+    softWrap: true
+  "adwaita-pro-ui":
+    iconTheme: "Octicons"
+    theme: "dark"
   core:
+    autoHideMenuBar: true
     disabledPackages: [
-      "timecop"
+      "spell-check"
+      "markdown-preview"
+      "language-pfm"
+      "language-gfm"
+      "markdown-preview-plus"
+      "markdown-preview-plus-opener"
+      "pandoc"
+      "wrap-guide"
       "welcome"
     ]
-    audioBeep: false
-    projectHome: "~/projects"
-    autoHideMenuBar: true
     themes: [
       "one-dark-ui"
-      "monokai"
+      "pen-paper-coffee-syntax"
     ]
   editor:
-    showInvisibles: true
+    fontFamily: "Hack"
+    fontSize: 16
     invisibles: {}
-    fontFamily: "DejaVu Sans Mono"
-  "tree-view":
-    hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
-  latex:
-    enableShellEscape: true
-  "git-diff":
-    showIconsInEditorGutter: true
-  autocomplete:
-    includeCompletionsFromAllBuffers: true
-  "one-dark-ui": {}
+    lineHeight: 1.7
+    softWrap: true
+  "git-diff-details":
+    enableSyntaxHighlighting: true
+  "git-plus":
+    pullBeforePush: "pull --rebase"
+  "markdown-deluxe": {}
+  "markdown-preview-plus-opener":
+    closePreviewWhenClosingEditor: true
   minimap:
-    absoluteMode: true
-    displayMinimapOnLeft: true
-    scrollAnimation: true
+    ignoreWhitespacesInTokens: true
+    plugins:
+      codeglance: true
+      codeglanceDecorationsZIndex: 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
+  "minimap-git-diff": {}
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  tabs:
+    addNewTabsAtEnd: true
+    enableVcsColoring: true
+  welcome:
+    showOnStartup: false
+"source.gfm":
+  editor:
+    softWrap: true
