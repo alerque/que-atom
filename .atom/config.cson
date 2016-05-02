@@ -35,13 +35,16 @@
   "markdown-preview-plus-opener":
     closePreviewWhenClosingEditor: true
   minimap:
+    autoToggle: false
+    displayMinimapOnLeft: true
     ignoreWhitespacesInTokens: true
+    independentMinimapScroll: true
     plugins:
       codeglance: true
       codeglanceDecorationsZIndex: 0
       "git-diff": true
       "git-diffDecorationsZIndex": 0
-      "minimap-autohide": true
+      "minimap-autohide": false
       "minimap-autohideDecorationsZIndex": 0
   "minimap-git-diff": {}
   "split-diff":
@@ -53,6 +56,12 @@
   tabs:
     addNewTabsAtEnd: true
     enableVcsColoring: true
+  "tree-view":
+    focusOnReveal: false
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+    squashDirectoryNames: true
+  "tree-view-git-branch": {}
   welcome:
     showOnStartup: false
 "source.gfm":
