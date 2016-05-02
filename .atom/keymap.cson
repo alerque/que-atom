@@ -1,0 +1,6 @@
+'.platform-linux':
+  'ctrl-p': 'core:paste'
+  'ctrl-y': 'core:copy'
+'body':
+  'ctrl-shift-o': 'application:open-file'
+  'ctrl-o': 'command-palette:toggle'
