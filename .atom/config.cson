@@ -8,14 +8,14 @@
     autoHideMenuBar: true
     disabledPackages: [
       "spell-check"
-      "markdown-preview"
       "language-pfm"
-      "language-gfm"
       "markdown-preview-plus"
       "markdown-preview-plus-opener"
       "pandoc"
       "wrap-guide"
       "welcome"
+      "minimap-autohide"
+      "language-gfm"
     ]
     themes: [
       "one-dark-ui"
