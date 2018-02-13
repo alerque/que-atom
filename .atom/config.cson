@@ -5,7 +5,8 @@
     iconTheme: "Octicons"
     theme: "dark"
   "atom-pair":
-    slack_url: "https://mattermost.alerque.com/hooks/uftogwkiefr6uraqjfci7r78jr"
+    pusher_app_key: "cc631bb3a1f24a8ff47f"
+    pusher_app_secret: "f2aa419db389247c67f7"
   build:
     beepWhenDone: true
     overrideThemeColors: false
@@ -105,7 +106,6 @@
   "sync-settings":
     _lastBackupHash: "6f0aad82bf0e42f42d70295fbc4be751cdf01b05"
     gistId: "32dd248c0fd33f1526deccf549af4493"
-    personalAccessToken: "c51b37e12a1e3dfa27fd665f251b9e71be60d3c1"
     quietUpdateCheck: true
     removeObsoletePackages: true
   tabs:
