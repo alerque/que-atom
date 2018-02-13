@@ -4,39 +4,71 @@
   "adwaita-pro-ui":
     iconTheme: "Octicons"
     theme: "dark"
+  "atom-pair":
+    slack_url: "https://mattermost.alerque.com/hooks/uftogwkiefr6uraqjfci7r78jr"
+  build:
+    beepWhenDone: true
+    overrideThemeColors: false
+    saveOnBuild: true
+    scrollOnError: true
+    stealFocus: false
+  "build-make":
+    useMake: true
   core:
     autoHideMenuBar: true
+    automaticallyUpdate: false
     disabledPackages: [
-      "spell-check"
-      "language-pfm"
-      "markdown-preview-plus"
       "markdown-preview-plus-opener"
-      "pandoc"
-      "wrap-guide"
       "welcome"
       "minimap-autohide"
       "language-gfm"
+      "linter-markdown"
+      "git-control"
+      "git-diff-details"
+      "git-plus"
+      "git-projects"
+      "git-time-machine"
+      "project-plus"
+      "split-diff"
+      "tree-view-git-branch"
+      "tree-view-git-status"
+      "timecop"
+      "background-tips"
+      "markdown-preview"
+      "markdown-preview-plus"
+      "incompatible-packages"
+      "deprecation-cop"
+      "styleguide"
+      "minimap-codeglance"
+      "ghost-text"
+      "neovimbed"
+      "build-make"
     ]
-    themes: [
-      "one-dark-ui"
-      "pen-paper-coffee-syntax"
-    ]
+    projectHome: "/home/caleb/projects"
+    telemetryConsent: "limited"
   editor:
     fontFamily: "Hack"
-    fontSize: 16
+    fontSize: 15
     invisibles: {}
-    lineHeight: 1.7
+    lineHeight: 1.4
     softWrap: true
+  "exception-reporting":
+    userId: "c3a3466e-645d-09e3-1646-aced22dff755"
   "git-diff-details":
     enableSyntaxHighlighting: true
   "git-plus":
+    alwaysPullFromUpstream: true
     pullBeforePush: "pull --rebase"
+  github:
+    viewChangesForCurrentFileDiffPaneSplitDirection: "right"
+  "linter-ui-default": {}
   "markdown-deluxe": {}
   "markdown-preview-plus-opener":
     closePreviewWhenClosingEditor: true
+  "markdown-writer":
+    fileExtension: ".md"
   minimap:
     autoToggle: false
-    displayMinimapOnLeft: true
     ignoreWhitespacesInTokens: true
     independentMinimapScroll: true
     plugins:
@@ -47,23 +79,61 @@
       "minimap-autohide": false
       "minimap-autohideDecorationsZIndex": 0
   "minimap-git-diff": {}
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
+  "show-invisibles-plus":
+    borders: {}
+    show: false
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "text.md"
+    ]
+    locales: [
+      "en-US"
+      "tr-TR"
+    ]
   "split-diff":
     diffWords: true
     ignoreWhitespace: true
-    leftEditorColor: "red"
-    rightEditorColor: "green"
     syncHorizontalScroll: true
+  "sync-settings":
+    _lastBackupHash: "6f0aad82bf0e42f42d70295fbc4be751cdf01b05"
+    gistId: "32dd248c0fd33f1526deccf549af4493"
+    personalAccessToken: "c51b37e12a1e3dfa27fd665f251b9e71be60d3c1"
+    quietUpdateCheck: true
+    removeObsoletePackages: true
   tabs:
     addNewTabsAtEnd: true
     enableVcsColoring: true
+  "tool-bar":
+    fullWidth: false
+    iconSize: "12px"
+    position: "Bottom"
+  "tool-bar-markdown-writer": {}
   "tree-view":
     focusOnReveal: false
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   "tree-view-git-branch": {}
+  "vim-mode-plus": {}
   welcome:
     showOnStartup: false
+".editorconfig.source":
+  editor:
+    showInvisibles: true
+".makefile.source":
+  editor:
+    tabLength: 4
+".md.text":
+  editor:
+    showInvisibles: true
 "source.gfm":
   editor:
     softWrap: true

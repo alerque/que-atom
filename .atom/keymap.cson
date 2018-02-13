@@ -4,3 +4,5 @@
 'body':
   'ctrl-shift-o': 'application:open-file'
   'ctrl-o': 'command-palette:toggle'
+'atom-text-editor[data-grammar="text md"]':
+  'ctrl-i': 'markdown:emphasis'
